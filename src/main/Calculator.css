@@ -1,0 +1,17 @@
+.container {
+    min-width: 300px;
+    min-height: 400px;
+    background: rgb(36, 36, 36);
+    padding: 20px 15px 20px;
+    border-radius: 20px;
+    box-shadow: 25px 25px 75px hsla(0, 0%, 0%, 0.25),
+        10px 10px 70px rgba(0, 0, 0, 0.25),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+        inset 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 80px 80px 80px 80px;
+}
